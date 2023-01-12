@@ -16,7 +16,7 @@ public class ExercicioForeach {
 			totalAlunoA += notaAlunoA;			
 		}
 		
-		System.out.printf("%.2f",totalAlunoA/notasAlunoA.length);
+		System.out.printf("A média de notas é: %.2f",totalAlunoA/notasAlunoA.length);
 		
 		double[] notasAlunoB = { 6.9, 8.9, 5.5, 10 };
 		
@@ -25,7 +25,8 @@ public class ExercicioForeach {
 			totalAlunoB += notaAlunoB;				
 		}
 		
-		System.out.printf("\n%.2f",totalAlunoB/notasAlunoB.length);
+		System.out.printf("\n A média de notas é: %.2f",totalAlunoB/notasAlunoB.length);
+		System.out.println(" ");
 	}
 
 
